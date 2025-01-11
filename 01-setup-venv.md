@@ -49,7 +49,7 @@ In this exercise, you'll compare the setup speed and usage of traditional `venv`
      ```
    - **macOS/Linux**:
      ```bash
-     time pip install pandas numpy matplotlib requests
+     time pip install pandas numpy matplotlib requests scikit-learn black
      ```
 
 5. Create a requirements file:
@@ -85,5 +85,5 @@ In this exercise, you'll compare the setup speed and usage of traditional `venv`
      ```
    - **macOS/Linux**:
      ```bash
-     time uv add pandas numpy matplotlib requests
+     time uv add pandas numpy matplotlib requests scikit-learn black
      ```
